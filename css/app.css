@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	background: #399B85;
+}
+
+#loading {
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+#content {
+	display: none;
+	width: 350px;
+	height: 80px;
+	color: #fff;
+}
+
+#icon {
+	float: left;
+}
+
+#message {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#degree {
+	margin-left: 10px;
+	float: left;
+	font-size: 18px;
+}
+
+#location {
+	margin-right: 10px;
+	float: right;
+	font-size: 12px;
+	vertical-align: bottom;
+}

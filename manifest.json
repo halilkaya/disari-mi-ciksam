@@ -1,0 +1,22 @@
+{
+	"name": "Dışarı mı çıksam?",
+	"version": "1.0",
+	"short_name": "DEMEÇ",
+	"description": "Havanın durumuna göre size dışarı çıkıp çıkmama konusunda öneri verir.",
+	"author": "Halil Kaya",
+	"manifest_version": 2,
+	"background": [
+		"js/jquery.min.js",
+		"js/app.js",
+		"css/app.css"
+	],
+	"browser_action": {
+		"default_icon": "img/icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_security_policy": "script-src 'self' ; object-src 'self'",
+	"permissions": [
+		"http://*/*",
+		"https://*/*"
+	]
+}
